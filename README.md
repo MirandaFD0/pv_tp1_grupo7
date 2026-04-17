@@ -2,7 +2,7 @@
 
 **Integrantes:** AGREGUEN SUS NOMBRES Y USUARIOS DE GITHUB
 - 1- Miranda Facundo David / Usuario GitHub: MirandaFD0
-- 2- 
+- 2- Leandro Abel Ezequiel Camacho/leandrocamacho02
 - 3- 
 - 4- 
 - 5-
