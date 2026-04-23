@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Perfil - EduProjects</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -20,86 +21,96 @@
     </header>
     <main>
         <h2>Perfil del usuarios</h2>
-        <section>
-            <h3>Informacion Personal</h3>
-            <img src="img/perfil_carlos.jpg" alt="Foto de perfil" width="150">
-            <dl>
-                <dt>Nombre Completo</dt>
-                <dd>Carlos Mendoza</dd>
+        <div class="perfil-container">
+            <section class="perfil-info">
+                <div class="perfil-header">
+                    <h3>Informacion Personal</h3>
+                    <img src="img/perfil_carlos.jpg" alt="Foto de perfil" width="150" class="perfil-foto">
+                    <div class="perfil-datos">
+                        <h3>Carlos Mendoza</h3>
+                        <span class="perfil-rol">Docente</span>
+                    </div>
+                </div>
+                <dl class="perfil-lista">
+                    <dt>Nombre Completo</dt>
+                    <dd>Carlos Mendoza</dd>
 
-                <dt>Rol</dt>
-                <dd>Docente</dd>
+                    <dt>Rol</dt>
+                    <dd>Docente</dd>
 
-                <dt>Especialidad</dt>
-                <dd>Desarollo de Software</dd>
+                    <dt>Especialidad</dt>
+                    <dd>Desarollo de Software</dd>
 
-                <dt>Institucion</dt>
-                <dd>Facultad de Ingenieria - UnJu</dd>
+                    <dt>Institucion</dt>
+                    <dd>Facultad de Ingenieria - UnJu</dd>
 
-                <dt>Correo Electronico Institucional</dt>
-                <dd>c.mendoza@ist12.edu.ar</dd>
+                    <dt>Correo Electronico Institucional</dt>
+                    <dd>c.mendoza@ist12.edu.ar</dd>
 
-                <dt>Miembro desde</dt>
-                <dd><time datetime="2022-03-01">Marzo de 2022</time></dd>
+                    <dt>Miembro desde</dt>
+                    <dd><time datetime="2022-03-01">Marzo de 2022</time></dd>
 
-            </dl>
-        </section>
-        <section>
-             <h3>Proyectos en los que Participa</h3>
-        <ul>
-            <li><strong><a href="detalles.html">App de Reciclaje Urbano</a></strong> — Participante</li>
-            <li><strong>Sistema de Alertas Escolares</strong> — Docente Tutor</li>
-            <li><strong>Portal de Tutorías</strong> — Evaluador externo</li>
-        </ul>
-        </section>
-        <section>
-            <h3>Actividad Reciente</h3>
-            <ol>
-                <li>Revisó el informe de avance del proyecto "App de Reciclaje Urbano" — hace 2 horas.</li>
-                <li>Dejó comentarios en la tarea "Diseño de interfaz" — ayer.</li>
-                <li>Creó el proyecto "Sistema de Alertas Escolares" — hace 3 días.</li>
-                <li>Aprobó la entrega final del proyecto "Portal de Tutorías" — hace 1 semana.</li>
-            </ol>
-        </section>
-        <section>
-            <h3>Estadisticas del Docente</h3>
-            <table>
-                <caption>Resumen de Actividades</caption>
-                <thead>
-                    <tr>
-                        <th>Indicador</th>
-                        <th>Cantidad</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Proyectos Tutorizados en total</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Proyectos Activos en este Ciclo</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>Entregas Realizadas</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>Alumnos Supervisados</td>
-                        <td>34</td>
-                    </tr>
-                    <tr>
-                        <td>Entregas Realizadas</td>
-                        <td>42</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                </dl>
+            </section>
         
+            <section class="perfil-actividad">
+                <div class="perfil-proyectos">
+                    <h3>Proyectos en los que Participa</h3>
+                    <ul class="lista-proyectos-perfil">
+                        <li><strong><a href="detalles.html">App de Reciclaje Urbano</a></strong> — Participante</li>
+                        <li><strong>Sistema de Alertas Escolares</strong> — Docente Tutor</li>
+                        <li><strong>Portal de Tutorías</strong> — Evaluador externo</li>
+                    </ul>
+                </div>
+            
+            <div class="perfil-reciente">
+                <h3>Actividad Reciente</h3>
+                <ol class="lista-actividad">
+                    <li>Revisó el informe de avance del proyecto "App de Reciclaje Urbano" — hace 2 horas.</li>
+                    <li>Dejó comentarios en la tarea "Diseño de interfaz" — ayer.</li>
+                    <li>Creó el proyecto "Sistema de Alertas Escolares" — hace 3 días.</li>
+                    <li>Aprobó la entrega final del proyecto "Portal de Tutorías" — hace 1 semana.</li>
+                </ol>
+            </div>
+            <div class="perfil-estadisticas">
+                <h3>Estadisticas del Docente</h3>
+                <table class="tabla-estadisticas">
+                    <caption>Resumen de Actividades</caption>
+                    <thead>
+                        <tr>
+                            <th>Indicador</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Proyectos Tutorizados en total</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Proyectos Activos en este Ciclo</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Entregas Realizadas</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Alumnos Supervisados</td>
+                            <td>34</td>
+                        </tr>
+                        <tr>
+                            <td>Entregas Realizadas</td>
+                            <td>42</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+      </div>  
     </main>
     <footer>
-        <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
-         <p>Desarrollado por el grupo 7 | APU - Programacion Visual</p>
-     </footer>
+         <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
+         <p>Desarrollado por el Grupo 7 | APU </p>
+    </footer>
 </body>
 </html>

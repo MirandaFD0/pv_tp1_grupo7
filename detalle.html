@@ -1,89 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos - EduProjects</title>
-</header>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-    <header>
-        <h1>EduProjects</h1>
-        <p>Plataforma de Gestion de Proyectos</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="detalles.html">Detalles de Proyectos</a></li>
-                <li><a href="perfil.html">Mi Perfil</a></li>
-            </ul>
+   <header>
+    <h1>EduProjects</h1>
+    <p>Plataforma de Gestion de Proyectos</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="detalles.html">Detalles de Proyectos</a></li>
+            <li><a href="perfil.html">Mi Perfil</a></li>
+        </ul>
 
-        </nav>
+    </nav>
 
-    </header>
-    <main>
-        <article>
-            <header>
-                <h2>App de Resiclaje urbano</h2>
+</header>
+<main>
+    <article class="detalle-proyecto">
+        <header class="detalle-header">
+            <h2>App de Resiclaje urbano</h2>
+            <div class="detalle-meta">
                 <p><strong>Fecha de Inicio:</strong><time datetime="2025-03-10"> 10 de Marzo de 2025</time></p>
                 <p><strong>Autores:</strong> Maria Gonzales ,Lucas Herrera, Sofia Paredes</p>
-                <p><strong>Estado:</strong> En Curso</p>
+                <p><strong>Estado:</strong> <spam class="estado-curso">En Curso</spam></p>
                 <p><strong>Categoria:</strong> Medio ambiental</p>
-            </header>
-            <section>
-                <P>La <strong>App de Resiclaje Urbano</strong> es una aplicación móvil desarrollada como proyecto integrador de la asignatura Desarrollo de Aplicaciones. Su objetivo principal es facilitar la participación ciudadana en la separación y disposición correcta de residuos reciclables. A través de un mapa interactivo, los usuarios pueden identificar los puntos verdes más cercanos a su ubicación y registrar sus aportes para obtener estadísticas personales de impacto ambiental.</P>
-                <p>Desde el punto de vista técnico, el proyecto aborda el ciclo completo de desarrollo de software: relevamiento de requerimientos, diseño de base de datos, desarrollo de interfaces y despliegue en entornos de prueba. El equipo trabaja bajo metodología ágil con sprints quincenales y reuniones de revisión con el docente referente. Se espera que la aplicación quede disponible para uso real en las instituciones participantes al finalizar el ciclo lectivo 2025.</p>
-            </section>
-            <section>
-                <h3>Recursos del Proyecto</h3>
-                <ul>
-                    <li><a href="https://drive.google.com/file/d/ejemplo1" target="_blank"> Documento De Requerimientos (Google Drive)</a></li>
-                    <li><a href="documentos/diagrama_bd.pdf" target="_blank">Diagrama de Base de Datos (PDF)</a></li>
-                    <li><a href="https://github.com/grupo999/app-reciclaje-urbano" target="_blank">Repositorio en GitHub</a></li>
-                    <li><a href="documentos/presentacion_inicial.pdf" target="_blank">Presentación Inicial del Proyecto (PDF)</a></li>
-                    <li><a href="https://drive.google.com/file/d/ejemplo2" target="_blank">Informe de Avance - Sprint 1 (Google Drive)</a></li>
-                </ul>
-            </section>
-            <section>
-                <h3>Equipo de Trabajo</h3>
-                <table>
-                    <caption>Integrantes y Roles del Proyecto</caption>
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Rol</th>
-                            <th>Resposabilidad Principal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>|Maria Gonzalez</td>
-                            <td>|Lider de Protecto</td>
-                            <td>|Coordinacion general y planificacion de sprints</td>
-                        </tr>
-                        <tr>
-                            <td>Lucas Herrera</td>
-                            <td>Desarrollado Backend</td>
-                            <td>Diseño e Interpretacion de la Dase de Datos</td>
-                        </tr>
-                        <tr>
-                            <td>Sofia Paredes</td>
-                            <td>Desarolladora Frontend</td>
-                            <td>Diseño de Interfaz y experiencia de usuarios</td>
-                        </tr>
-                        <tr>
-                            <td>Prof. Andres  Ramirez</td>
-                            <td>Docente Tutor</td>
-                            <td>Orientacion  tectica y evaluacion de avances</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </article>
-        <p><a href="proyectos.html">&#8592; Volver al listado de proyecto</a></p>
-    </main>
-     <footer>
-            <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
-            <p>Desarrollado por el grupo 7 | APU - Programacion Visual</p>
-     </footer>
+            </div>
+        </header>
+        <section class="detalle-descripcion">
+            <P>La <strong>App de Resiclaje Urbano</strong> es una aplicación móvil desarrollada como proyecto integrador de la asignatura Desarrollo de Aplicaciones. Su objetivo principal es facilitar la participación ciudadana en la separación y disposición correcta de residuos reciclables. A través de un mapa interactivo, los usuarios pueden identificar los puntos verdes más cercanos a su ubicación y registrar sus aportes para obtener estadísticas personales de impacto ambiental.</P>
+            <p>Desde el punto de vista técnico, el proyecto aborda el ciclo completo de desarrollo de software: relevamiento de requerimientos, diseño de base de datos, desarrollo de interfaces y despliegue en entornos de prueba. El equipo trabaja bajo metodología ágil con sprints quincenales y reuniones de revisión con el docente referente. Se espera que la aplicación quede disponible para uso real en las instituciones participantes al finalizar el ciclo lectivo 2025.</p>
+        </section>
+        <section class="detalle-recursos">
+            <h3>Recursos del Proyecto</h3>
+            <ul class="lista-recursos">
+                <li><a href="https://drive.google.com/file/d/ejemplo1" target="_blank"> Documento De Requerimientos (Google Drive)</a></li>
+                <li><a href="documentos/diagrama_bd.pdf" target="_blank">Diagrama de Base de Datos (PDF)</a></li>
+                <li><a href="https://github.com/grupo999/app-reciclaje-urbano" target="_blank">Repositorio en GitHub</a></li>
+                <li><a href="documentos/presentacion_inicial.pdf" target="_blank">Presentación Inicial del Proyecto (PDF)</a></li>
+                <li><a href="https://drive.google.com/file/d/ejemplo2" target="_blank">Informe de Avance – Sprint 1 (Google Drive)</a></li>
+            </ul>
+        </section>
+        <section class="detalle-equipo">
+            <h3>Equipo de Trabajo</h3>
+            <table class="tabla-equipo">
+                <caption>Integrantes y Roles del Proyecto</caption>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                        <th>Resposabilidad Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Maria Gonzalez</td>
+                        <td>Lider de Protecto</td>
+                        <td>Coordinacion general y planificacion de sprints</td>
+                    </tr>
+                    <tr>
+                        <td>Lucas Herrera</td>
+                        <td>Desarrollado Backend</td>
+                        <td>Diseño e Interpretacion de la Dase de Datos</td>
+                    </tr>
+                    <tr>
+                        <td>Sofia Paredes</td>
+                        <td>Desarolladora Frontend</td>
+                        <td>Diseño de Interfaz y experiencia de usuarios</td>
+                    </tr>
+                    <tr>
+                        <td>Prof. Andres  Ramirez</td>
+                        <td>Docente Tutor</td>
+                        <td>Orientacion  tectica y evaluacion de avances</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </article>
+    <p><a href="proyectos.html" class="btn-volver">&#8592; Volver al listado de proyecto</a></p>
+</main>
+<footer>
+        <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
+        <p>Desarrollado por el grupo 7 | APU - Programacion Visual</p>
+    </footer>
+ 
 </body>
 </html>
