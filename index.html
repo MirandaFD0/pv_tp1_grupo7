@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion de Proyectos Educativos</title>
-</head>
-
-<body>
-    <header>
-        <h1>Gestion de Poyectos Educativos</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="detalles.html">Detalles de Proyecto</a></li>
-            <li><a href="perfil.html">Mi perfil</a></li>
-        </ul>   
-    </nav>
-    <main>
-        <section>
-            <h2>Bienvenido, Alumno</h2>
-            <p>Panel de control de tus proyectos educativos</p>
-        </section>
-        <section>
-            <h3>Estadisticas Rápidas</h3>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PV 2026</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+        <h1>PROGRAMACION VISUAL 2026</h1>
+        <nav>
             <ul>
-                <li><strong>Proyectos Totales:</strong> 15</li>
-                <li><strong>Tareas para hoy:</strong> 4</li>
-                <li><strong>Mensajes Pendientes:</strong> 2</li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="detalles.html">Detalles de Proyecto</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
             </ul>
-        </section>
-        <section>
-            <section>
+        </nav>
+        </header>
+        <main>
+            <section class="estadisticas">
+                <h2>Panel de Control</h2>
+                <p>Resumen general de la actividad en la plataforma</p>
+                <div class="cards-container">
+                    <article class="card">
+                        <h3>Proyectos totales</h3>
+                        <p><strong>12</strong></p>
+                        <p>Proyectos registrados en el sistema este ciclo lectivo</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Tareas para hoy</h3>
+                        <p><strong>5</strong></p>
+                        <p>Revision y entrega de pendientes para el dia de hoy</p>
+                    </article>
+                    <article class="card">
+                        <h3>Mensajes Pendientes</h3>
+                        <p><strong>3</strong></p>
+                        <p>notificaciones sin leer de docentes y alumnos.</p>
+                    </article>
+                 </div>
+            </section>
+           
+            <section class="novedades">
                 <h2>Ultimas Novedades</h2>
                 <p>Actividades recientes registradas en la plataforma;</p>
-                <ul>
+                <ul class="lista-novedades">
                     <li><strong>Maria gonzalez</strong> subio un archivo al proyecto "App de reciclaje urbano" - hace 15 minutos. </li>
                     <li>Se creo el proyecto<strong>"Sistema de alertas escolares"</strong> - hace 1 hora.</li>
                     <li><strong>Lucas Herrera</strong>completo la tarea "diseño de base de datos" - hace 3 horas.</li>
                     <li>El proyecto<strong>"Portal de Tutoriales</strong> fue marcado como<em> Finalizado</em></li>
                 </ul>
             </section>
-        </section>
-
-    </main>
-     <footer>
-        <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
-         <p>Desarrollado por el grupo 7 | APU - Programacion Visual</p>
-     </footer>
-
-</body>
-
+          
+        </main>
+        <footer>
+            <p>EduProjects &copy; 2025 - Plataforma Educativa</p>
+            <p>Desarrollado por el Grupo 7 | APU </p>
+        </footer>
+    </body>
 </html>
