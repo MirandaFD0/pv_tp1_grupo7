@@ -26,7 +26,7 @@ header h1{
 }
 header p{
   margin: 5px 0;
-  font-size: 14xp;
+  font-size: 14px;
 }
 nav{
   margin-top: 15px;
@@ -284,6 +284,10 @@ color: var(--color-primario)
   padding: 12px 15px;
   border-bottom: 1px solid #eee;
 }
+.tabla-equipo td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
 .tabla-equipo tr:hover td{
   background-color: #f5f6fa;
 }
@@ -407,4 +411,8 @@ color: var(--color-primario)
 }
 .tabla-estadisticas tr:hover td{
   background-color: #f5f6fa;
+}
+.tabla-estadisticas td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
 }
